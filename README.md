@@ -1,45 +1,27 @@
-# Welcome to SatML Website 
+# SatML Website
 
-## To Edit the Code
+This is a draft version of the SatML landing page, styled with a green/tech vibe to match our AI/climate mission.
 
-**Use your preferred IDE**
+The current version includes:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Updated hero section + CTA  
+- Rewritten copy (problem + mission)  
+- Floating elements and thematic colors  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+I'm treating this purely as a draft and open to any suggestions or tweaks. Next steps I'm planning include:
 
-Follow these steps:
+- Smooth scroll transition into section 2  
+- Cleaning up the emoji system  
+- Adding more project-specific visuals (e.g. satellite data, model architecture)
+
+---
+
+## Dev Setup
+
+Clone the repo and run locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## Template Src
-
-**URL**: https://lovable.dev/projects/8d9f7020-97f6-4cf7-90ae-41252a34d3b3

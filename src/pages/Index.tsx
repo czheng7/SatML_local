@@ -46,24 +46,7 @@ const Index = () => {
               Leveraging hyper-spectral imagery and deep learning to track emissions from space.
             </p>
             
-            {/* CTA Fields */}
-            <div className={`flex gap-4 mt-6 transform transition-all duration-700 delay-175 ${
-              loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-            }`}>
-              <input
-                type="text"
-                placeholder="Lat/Lon or Region (e.g. 53.5°N, 113.5°W)"
-                className="bg-zinc-800 text-white p-3 rounded-md w-full border border-zinc-700 focus:border-green-500 focus:outline-none transition-colors"
-              />
-              <input
-                type="text"
-                placeholder="Date Range (e.g. July 2025)"
-                className="bg-zinc-800 text-white p-3 rounded-md w-full border border-zinc-700 focus:border-green-500 focus:outline-none transition-colors"
-              />
-              <button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-3 rounded-md transition-colors">
-                Run Inference
-              </button>
-            </div>
+
             
             {/* Description */}
             <p className={`text-gray-400 mt-4 transform transition-all duration-700 delay-200 ${
