@@ -1,19 +1,10 @@
 
-import { Shield, Clock, Award } from "lucide-react";
-
 const TrustBadges = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-8 mt-8 animate-fade-up [animation-delay:600ms]">
-      {[
-        { icon: Shield, text: "Secure Booking" },
-        { icon: Clock, text: "24/7 Support" },
-        { icon: Award, text: "Best Price Guarantee" },
-      ].map((badge, index) => (
-        <div key={index} className="flex items-center text-white/90">
-          <badge.icon className="w-5 h-5 mr-2" />
-          <span className="text-sm font-medium">{badge.text}</span>
-        </div>
-      ))}
+    <div className="flex justify-center gap-8 mt-10 text-gray-400 text-sm">
+      <div className="flex items-center gap-2">📂 Open Source</div>
+      <div className="flex items-center gap-2">🛰️ Real-time Monitoring</div>
+      <div className="flex items-center gap-2">📈 Model Accuracy: 92.7%</div>
     </div>
   );
 };
