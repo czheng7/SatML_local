@@ -1,18 +1,6 @@
-# Welcome to your Lovable project
+# Welcome to SatML Website 
 
-## Project info
-
-**URL**: https://lovable.dev/projects/8d9f7020-97f6-4cf7-90ae-41252a34d3b3
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/8d9f7020-97f6-4cf7-90ae-41252a34d3b3) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+## To Edit the Code
 
 **Use your preferred IDE**
 
@@ -50,9 +38,7 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
-
-This project is built with .
+## This project is built with .
 
 - Vite
 - TypeScript
@@ -60,10 +46,6 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Template Src
 
-Simply open [Lovable](https://lovable.dev/projects/8d9f7020-97f6-4cf7-90ae-41252a34d3b3) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+**URL**: https://lovable.dev/projects/8d9f7020-97f6-4cf7-90ae-41252a34d3b3
